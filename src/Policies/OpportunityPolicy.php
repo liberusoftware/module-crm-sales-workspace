@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Policies;
+namespace Liberu\CRM\SalesWorkspace\Policies;
 
-use App\Models\Opportunity;
+use Liberu\CRM\SalesWorkspace\Models\Opportunity;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 

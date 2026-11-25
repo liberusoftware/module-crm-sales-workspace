@@ -1,12 +1,19 @@
 <?php
 
-namespace App\Models;
+namespace Liberu\CRM\SalesWorkspace\Models;
 
-use App\Contracts\OwnsRecords;
-use App\Events\DealClosed;
-use App\Traits\IsTenantModel;
-use App\Traits\MasksFields;
-use App\Traits\RestrictsToOwner;
+
+use Liberu\CRM\Activities\Models\CrmActivity as Activity;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\Documents\Models\Document;
+use Liberu\CRM\SalesPipelines\Models\Pipeline;
+use Liberu\CRM\SalesPipelines\Models\Stage;
+use App\Models\User;
+use Liberu\CRM\Core\Contracts\OwnsRecords;
+use Liberu\CRM\Core\Events\DealClosed;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
+use Liberu\CRM\Core\Traits\MasksFields;
+use Liberu\CRM\Core\Traits\RestrictsToOwner;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

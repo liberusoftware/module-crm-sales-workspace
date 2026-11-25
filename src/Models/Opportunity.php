@@ -2,10 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Models;
+namespace Liberu\CRM\SalesWorkspace\Models;
 
-use App\Traits\IsTenantModel;
-use App\Traits\MasksFields;
+
+use Liberu\CRM\Core\Models\CrmNote as Note;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
+use Liberu\CRM\Core\Traits\MasksFields;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

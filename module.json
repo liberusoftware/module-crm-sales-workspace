@@ -2,7 +2,7 @@
   "name": "crm-sales-workspace",
   "display_name": "CRM Sales Workspace",
   "description": "Team-scoped prioritized seller feed, inbox, risk indicators, agenda, next actions, quick updates and history",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "capability",
   "provider": "Liberu\\CRM\\SalesWorkspace\\SalesWorkspaceServiceProvider",
   "requires": {},

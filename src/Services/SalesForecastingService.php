@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Services;
+namespace Liberu\CRM\SalesWorkspace\Services;
 
-use App\Models\Deal;
-use App\Models\Pipeline;
-use App\Models\SalesForecast;
+use Liberu\CRM\SalesWorkspace\Models\Deal;
+use Liberu\CRM\SalesPipelines\Models\Pipeline;
+use Liberu\CRM\SalesPipelines\Models\SalesForecast;
 use Carbon\Carbon;
 
 class SalesForecastingService
